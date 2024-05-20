@@ -1,0 +1,27 @@
+ :root:has(#mode:checked) {
+     --primary-hue: 35;
+     --primary-lightness: 44%;
+     --primary-saturation: 72%;
+     --light-hue: 0;
+     --light-saturation: 0%;
+     --light-lightness: 9%;
+     --light-alpha: 1;
+     --color-default: #fff;
+     --color-secondary: #fff;
+     --color-tertiary: #9f9f9f;
+     --color-light-grey: #252525 !important;
+     --links-hover-color: #fff;
+     --svg-url: url(../assets/img/team-shape-dark.svg);
+     --card-boxShadow-color: rgba(246, 246, 246, 0.5);
+ }
+
+ body:has(#mode:checked)  {
+     background-color: #202020;
+ }
+ body:has(#mode:checked) .light {
+     display: inline-block;
+ }
+
+ body:has(#mode:checked) .dark {
+     display: none;
+ }
